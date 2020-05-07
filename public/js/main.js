@@ -1,7 +1,14 @@
 (() => {
   'use strict';
   const firebaseConfig = {
-    
+    apiKey: "AIzaSyCVB41ynmHhYWTtQib2uVrxMjocUnIRawA",
+    authDomain: "chat-app-proto-38861.firebaseapp.com",
+    databaseURL: "https://chat-app-proto-38861.firebaseio.com",
+    projectId: "chat-app-proto-38861",
+    storageBucket: "chat-app-proto-38861.appspot.com",
+    messagingSenderId: "403906593801",
+    appId: "1:403906593801:web:747b047e5d929161a624d8",
+    measurementId: "G-GX1GYS56G6"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
