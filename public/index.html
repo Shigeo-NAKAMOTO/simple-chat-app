@@ -7,14 +7,18 @@
 </head>
 <body>
   <h1>
+    <!-- ログイン・ログアウトボタン -->
     <button id="login">Login</button>
     <button id="logout" class="hidden">Logout</button>
     Simple Chat App for SET Study MTG
   </h1>
+  <!-- 投稿の表示用リスト -->
   <ul id="messages" class="hidden"></ul>
+  <!-- 投稿用フォーム -->
   <form autocomplete="off" class="hidden">
     <input type="text" id="message" placeholder="your message...">
   </form>
+  <!-- Firebaseのスクリプトを読み込む -->
   <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
